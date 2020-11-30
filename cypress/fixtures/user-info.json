@@ -1,0 +1,9 @@
+{
+  "firstName": "John",
+  "lastName": "Deo",
+  "genderMale": "Male",
+  "genderFemale": "Female",
+  "emailID": "john.deo@email.com",
+  "companyName": "Learning Hub",
+  "password": "password123"
+}
