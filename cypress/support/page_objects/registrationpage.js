@@ -21,7 +21,7 @@ class registrationPage{
     }
 
     getBirthDate(){
-        return cy.get('select[name="DateOfBirthDay"]')
+        return cy.get('[name="DateOfBirthDay"]')
     }
 
     getBirthMonth(){
