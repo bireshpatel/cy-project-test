@@ -1,6 +1,6 @@
 import registrationPage from '../../support/page_objects/registrationpage';
 import registerresultPage from '../../support/page_objects/registerresultpage';
-import util from '../../integration/common/util';
+import util from '../../support/common/util';
 
 describe('User Registration', () => {
     before(function () {

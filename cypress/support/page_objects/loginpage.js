@@ -1,11 +1,11 @@
 class loginPage{
 
     getEmailText(){
-        return cy.get('input#Email.email')
+        return cy.get('a[class="ico-login"]')
     }
 
     getPasswordText(){
-        return cy.get('input#Password.password')
+        return cy.get('a[class="ico-logout"]')
     }
 }
 export default loginPage

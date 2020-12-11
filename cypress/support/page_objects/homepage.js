@@ -1,7 +1,10 @@
-describe('Complete User Registration', function() => {
-    before(function(){
-        cy.fixtures('user-info').then(function (data){
-        this.data = data;
-        })
-    })
-})
+class homePage{
+
+    getSearchStoreTextBox(){
+        return cy.get('.search-box-text')
+    }
+    getSearchButton(){
+        return cy.get('#small-search-box-form > .button-1')
+    }
+}
+export default homePage
