@@ -321,3 +321,6 @@ $RECYCLE.BIN/
 
 /npm/react/bin/*
 # End of https://www.gitignore.io/api/osx,git,node,windows,intellij,linux
+cypress/fixtures/liveData.json
+cypress/screenshots/
+cypress/videos/

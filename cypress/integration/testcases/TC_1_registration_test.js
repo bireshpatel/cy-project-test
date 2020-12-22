@@ -9,7 +9,7 @@ describe('User Registration', () => {
         })
    })
 
-    it('Browse the Page', function() {
+    it('Registration Functionality - Create User', function() {
 
         const registration_page = new registrationPage();
         const utility = new util();

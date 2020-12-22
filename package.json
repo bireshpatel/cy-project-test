@@ -4,8 +4,12 @@
   "description": "This is for Training in Cypress",
   "main": "index.js",
   "scripts": {
-    "cypress:open": "cypress open",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "testui": "node_modules\\.bin\\cypress open",
+    "testcli": "node_modules\\.bin\\cypress run",
+    "testupload": "node_modules\\.bin\\cypress run --record --key 704644e7-1e0f-4bff-840d-f84ca18e71c8",
+    "runclitest": "npm run testcli --",
+    "runuitest": "npm run testui --",
+    "runuploadtest": "npm run testupload --"
   },
   "author": "",
   "license": "ISC",

@@ -1,4 +1,7 @@
 {
   "chromeWebSecurity": false,
-  "projectId": "17ni7y"
+  "projectId": "17ni7y",
+  "video": true,
+  "videoCompression": 32,
+  "videoUploadOnPasses": true
 }

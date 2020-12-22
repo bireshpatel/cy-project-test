@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "availableSizes": [
+        "M"
+      ],
+      "currencyFormat": "$",
+      "currencyId": "USD",
+      "description": "",
+      "id": 13,
+      "installments": 5,
+      "isFreeShipping": true,
+      "price": 100.00,
+      "sku": 51498472915966370,
+      "style": "Front print and paisley print",
+      "title": "Cypress XHR Test - T-Shirt"
+    }
+  ]
+}
