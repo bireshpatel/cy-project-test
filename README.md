@@ -50,4 +50,7 @@ Project setup with POM, Custom commands, Dashboard feature with
 | CLI   | `npm run testcli` |
 | Dashboard <br> Upload    | `npm run testupload` |
 
-Start Jenkin: `java .jar jenkins.war`
+### Start Jenkin Jobs: <br> 
+http://localhost:8080/ (Username: `admin` and Password: `password`)
+* Cypress-CLI-Pipeline
+* Cypress-Dashboard-Pipeline
