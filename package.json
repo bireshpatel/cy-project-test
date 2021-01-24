@@ -9,9 +9,10 @@
     "testupload": "node_modules\\.bin\\cypress run --record --key 704644e7-1e0f-4bff-840d-f84ca18e71c8",
     "runclitest": "npm run testcli --",
     "runuitest": "npm run testui --",
-    "runuploadtest": "npm run testupload --"
+    "runuploadtest": "npm run testupload --",
+    "runHeadless": "./node_modules/.bin/cypress run --record --key 704644e7-1e0f-4bff-840d-f84ca18e71c8"
   },
-  "author": "",
+  "author": "Biresh Patel",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^6.0.0"
